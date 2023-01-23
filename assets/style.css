@@ -1,0 +1,34 @@
+:root {
+    --lt-blue: #80fff6;
+    --md-blue: #1ec7ff;
+    --dk-blue: #4e47ff;
+    --lt-grey: #a1a1a1;
+    --white: #ffffff;
+}
+
+/* Body & Header Styling */
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-image: linear-gradient(-90deg, var(--lt-blue), var(--md-blue), var(--dk-blue));
+    /* margin: 10px */
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Button Styling */
+.btn-search {
+    background-color: var(--lt-blue);
+    color: var(--white);
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
