@@ -3,7 +3,6 @@
     --md-blue: #1ec7ff;
     --dk-blue: #4e47ff;
     --lt-grey: #a1a1a1;
-    --white: #ffffff;
 }
 
 /* Body & Header Styling */
@@ -21,12 +20,28 @@ header h1 {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    border: solid black 5px;
+}
+
+.current-weather {
+    border: 2px solid black;
+    margin: 15px 0px;
+    padding: 12px;
+}
+
+h3 {
+    border: solid black 2px;
 }
 
 /* Button Styling */
 .btn-search {
-    background-color: var(--lt-blue);
-    color: var(--white);
+    background-image: linear-gradient(-90deg, var(--lt-blue), var(--md-blue));
+    color: white;
     border: none;
     font-weight: bold;
     font-size: 20px;
